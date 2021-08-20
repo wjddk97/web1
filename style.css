@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Stylish', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+.container .header {
+    width: 80%;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.nav ul li {
+    display: inline;
+    margin: 0 60px;
+    font-size: 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav ul li a:hover {
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+
+.wrap {
+    background-color:#637a8d;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 600px
+}
+#hometext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+#text {
+    position: relative;
+    display: inline-block;
+}
+#text::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -5px;
+    width: 4px;
+    height: 100%;
+    background-color: black;
+}
+#text.active::after {
+    display: none;
+}
+.margin{
+    margin-left:15%;
+    margin-right:15%;
+    border-top: solid gray 1px;  
+    text-align: center; 
+}
+.profile-img {
+    margin-top: 5%;
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+}
+#p-text{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 5%;
+    padding-top: 30%;
+    line-height:50px;
+}
+#p-smalltext {
+    font-size: 20px;
+}
+.like {
+    display: inline;
+    width: 30%;
+    height: 30%;
+    margin-left:1%;
+    margin-right:1%;
+    margin-top: 5%;   
+}
+.l-text {
+    font-size: 25px;
+    margin:13%;
+
+}
+#contact {
+    margin-top: 25% ;
+    font-size: 25px;
+}
+.icon {
+    margin-top: 3%;
+    width: 30px;
+    height: 30px;
+}
